@@ -1,0 +1,7 @@
+1. The divs became slightly smaller in width and more pushed off to the side
+2. The divs move over to the right but instead of being stacked on top of one another, they sit side by side in columns now.
+3. The divs remain in their column arrangement, only now they are pushed to the left side.
+4. The main text stays within the borders of the page while the test divs stay put where they were originally floated and when floated to the right, even fall entirely off the page.
+5. The two divs sit on opposite sides of the screen now with a large space in the center.
+6. The resized div1 no longer fits on the screen and some of the text is cut off. Div2 fell underneath the first div by default.
+7. The divs move with the width of the page so that the text stays on the page.

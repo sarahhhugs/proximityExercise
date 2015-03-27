@@ -8,6 +8,73 @@
 <link rel="stylesheet" href="style.css">
 <style>
 
+header {
+text-align: center;
+box-sizing: border-box;
+margin:
+}
+
+h1 {
+  text-align: center;
+  font-size: 400%;
+  letter-spacing: .1em;
+  color: #FFFFFF;
+
+}
+p {
+  font-size: medium;
+}
+
+#wrapper {
+  background-color: #52637B;
+  margin: 0 auto;
+  width: 1200 px;
+
+}
+
+#image1 {
+  float: right;
+}
+#subtext {
+  color: #FFFFFF;
+}
+#rightSidebar {
+  width: 100%;
+  box-sizing: border-box;
+  float: right;
+  background-color: #FFFFFF;
+
+}
+#navsidebar {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  background-color: #FFFFFF;
+
+}
+#mainContent {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  background-color: #FFFFFF;
+
+}
+
+#container1 {
+width: 20%;
+float: left;
+
+}
+
+
+#container2 {
+  width: 50%;
+  float: left;
+}
+#container3 {
+  width: 20%;
+  float: right;
+}
 
 </style>
 </head>
@@ -25,9 +92,11 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
 <div id="wrapper">
 	<header>
 	   <h1>The Wizard of Oz!</h1>
-     Allegory for Bi-metalism? Who cares! It's in the Public Domain!
+     <div id="subtext"> Allegory for Bi-metalism? Who cares! It's in the Public Domain! </div>
   </header>
 	<nav>
+    <div class="container" id="container1">
+    <div id="navsidebar">
 	<h2>Nav Sidebar</h2>
 	<p> Nav Sidebars are usually used for links and stuff like that. The breaks are a quick and dirty way to format. We'll learn better ways next week.</p>
 		<a href="http://en.wikipedia.org/wiki/Dorothy_Gale">Dorothy</a>
@@ -36,8 +105,11 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
     <br>
 		<a href="http://en.wikipedia.org/wiki/Bimetallism">Bimetallism</a>
 	</ul>
+</div>
+</div>
   </nav>
-	<div id="mainContent">
+	<div class="container" id="container2">
+    <div id="mainContent">
   <h2>From The Wizard of Oz</h2>
 	<img src="dorothy.jpg" id="image1" alt="Dorothy"/><p>We've learned a lot about creating columns. Just look at this great three column display we've created. It looks as good as anything we might do with a template, and we've made it from scratch. Just a little CSS and some time, and it is all ready to go. Be extra careful to make sure you've established strong vertical lines on the page! This will make everything hold together much more neatly and create a strong sense of visual unity! It will probably take some fiddling and tweaking to get the lines exactly right. Don't forget that you can use the inspector tool to visualize lines and make sure elements are lining up the way you want them to!</p>
 	<p>This column looks a lot better with multiple paragraphs, so I've added a bunch of filler text from the Wizard of Oz.</p>
@@ -56,10 +128,13 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
 	<p>"Now oil the joints in my arms," he said.  And Dorothy oiled them and the Scarecrow bent them carefully until they were quite free from rust and as good as new.</p>
 
 	</div>
-	<div id="rightSidebar">
+</div>
+	<div class="container" id="container3">
+    <div id="rightSidebar">
 	<h2>Right Sidebar</h2>
 	Often times, right sidebars are used to provide about information, or other material that glosses what is going on on the page. Maybe this is a mission statement, or a reminder that the reader is looking at your portfolio. Maybe it provides a personal narrative, or provides recent site content. An RSS reader widget could also go here, allowing you to pull in snippets of content from around the web and aggregate them for your readers.
   </div>
+</div>
 </div>
 <br style="clear:both" />
 <br />
